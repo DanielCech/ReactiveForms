@@ -1,0 +1,6 @@
+framework module Pods_ReactiveForms {
+  umbrella header "Pods-ReactiveForms-umbrella.h"
+
+  export *
+  module * { export * }
+}
