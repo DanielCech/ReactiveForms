@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370187CB1ECF4AEA0005462F /* DCCellDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187BF1ECF4AEA0005462F /* DCCellDescription.swift */; };
+		370187CC1ECF4AEA0005462F /* DCExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 370187C11ECF4AEA0005462F /* DCExceptionHandler.m */; };
+		370187CD1ECF4AEA0005462F /* DCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187C21ECF4AEA0005462F /* DCHelper.swift */; };
+		370187CE1ECF4AEA0005462F /* DCSectionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187C31ECF4AEA0005462F /* DCSectionDescription.swift */; };
+		370187CF1ECF4AEA0005462F /* DCTableSupportedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187C41ECF4AEA0005462F /* DCTableSupportedViewController.swift */; };
+		370187D01ECF4AEA0005462F /* DCTableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187C51ECF4AEA0005462F /* DCTableViewCellProtocol.swift */; };
+		370187D11ECF4AEA0005462F /* DCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187C71ECF4AEA0005462F /* DCTableViewController.swift */; };
+		370187D21ECF4AEA0005462F /* DCTableViewHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187C81ECF4AEA0005462F /* DCTableViewHandling.swift */; };
+		370187D31ECF4AEA0005462F /* DCTableViewStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187C91ECF4AEA0005462F /* DCTableViewStructure.swift */; };
+		370187D41ECF4AEA0005462F /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187CA1ECF4AEA0005462F /* ReusableView.swift */; };
+		370187D81ECF4B220005462F /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187D61ECF4B220005462F /* MenuCell.swift */; };
+		370187D91ECF4B220005462F /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370187D71ECF4B220005462F /* MenuCell.xib */; };
+		370187DD1ECF4E100005462F /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370187DB1ECF4E100005462F /* TextFieldCell.swift */; };
+		370187DE1ECF4E100005462F /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370187DC1ECF4E100005462F /* TextFieldCell.xib */; };
 		378AABF01ECEF83200DE4637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378AABEF1ECEF83200DE4637 /* AppDelegate.swift */; };
 		378AABF21ECEF83200DE4637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378AABF11ECEF83200DE4637 /* ViewController.swift */; };
 		378AABF51ECEF83200DE4637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378AABF31ECEF83200DE4637 /* Main.storyboard */; };
@@ -17,6 +31,23 @@
 
 /* Begin PBXFileReference section */
 		25C971EBEF12288D3905AB13 /* Pods_ReactiveForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370187BF1ECF4AEA0005462F /* DCCellDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCCellDescription.swift; sourceTree = "<group>"; };
+		370187C01ECF4AEA0005462F /* DCExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCExceptionHandler.h; sourceTree = "<group>"; };
+		370187C11ECF4AEA0005462F /* DCExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCExceptionHandler.m; sourceTree = "<group>"; };
+		370187C21ECF4AEA0005462F /* DCHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCHelper.swift; sourceTree = "<group>"; };
+		370187C31ECF4AEA0005462F /* DCSectionDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCSectionDescription.swift; sourceTree = "<group>"; };
+		370187C41ECF4AEA0005462F /* DCTableSupportedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCTableSupportedViewController.swift; sourceTree = "<group>"; };
+		370187C51ECF4AEA0005462F /* DCTableViewCellProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCTableViewCellProtocol.swift; sourceTree = "<group>"; };
+		370187C61ECF4AEA0005462F /* DCTableViewController-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DCTableViewController-Bridging-Header.h"; sourceTree = "<group>"; };
+		370187C71ECF4AEA0005462F /* DCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCTableViewController.swift; sourceTree = "<group>"; };
+		370187C81ECF4AEA0005462F /* DCTableViewHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCTableViewHandling.swift; sourceTree = "<group>"; };
+		370187C91ECF4AEA0005462F /* DCTableViewStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCTableViewStructure.swift; sourceTree = "<group>"; };
+		370187CA1ECF4AEA0005462F /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		370187D61ECF4B220005462F /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		370187D71ECF4B220005462F /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		370187DA1ECF4CC70005462F /* ReactiveForms-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReactiveForms-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		370187DB1ECF4E100005462F /* TextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		370187DC1ECF4E100005462F /* TextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
 		378AABEC1ECEF83200DE4637 /* ReactiveForms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveForms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378AABEF1ECEF83200DE4637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		378AABF11ECEF83200DE4637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +88,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		370187BE1ECF4AEA0005462F /* DCTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				370187BF1ECF4AEA0005462F /* DCCellDescription.swift */,
+				370187C01ECF4AEA0005462F /* DCExceptionHandler.h */,
+				370187C11ECF4AEA0005462F /* DCExceptionHandler.m */,
+				370187C21ECF4AEA0005462F /* DCHelper.swift */,
+				370187C31ECF4AEA0005462F /* DCSectionDescription.swift */,
+				370187C41ECF4AEA0005462F /* DCTableSupportedViewController.swift */,
+				370187C51ECF4AEA0005462F /* DCTableViewCellProtocol.swift */,
+				370187C61ECF4AEA0005462F /* DCTableViewController-Bridging-Header.h */,
+				370187C71ECF4AEA0005462F /* DCTableViewController.swift */,
+				370187C81ECF4AEA0005462F /* DCTableViewHandling.swift */,
+				370187C91ECF4AEA0005462F /* DCTableViewStructure.swift */,
+				370187CA1ECF4AEA0005462F /* ReusableView.swift */,
+			);
+			path = DCTableViewController;
+			sourceTree = SOURCE_ROOT;
+		};
+		370187D51ECF4B090005462F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				370187D61ECF4B220005462F /* MenuCell.swift */,
+				370187D71ECF4B220005462F /* MenuCell.xib */,
+				370187DB1ECF4E100005462F /* TextFieldCell.swift */,
+				370187DC1ECF4E100005462F /* TextFieldCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		378AABE31ECEF83100DE4637 = {
 			isa = PBXGroup;
 			children = (
@@ -78,12 +139,15 @@
 		378AABEE1ECEF83200DE4637 /* ReactiveForms */ = {
 			isa = PBXGroup;
 			children = (
+				370187D51ECF4B090005462F /* Cells */,
+				370187BE1ECF4AEA0005462F /* DCTableViewController */,
 				378AABEF1ECEF83200DE4637 /* AppDelegate.swift */,
 				378AABF11ECEF83200DE4637 /* ViewController.swift */,
 				378AABF31ECEF83200DE4637 /* Main.storyboard */,
 				378AABF61ECEF83200DE4637 /* Assets.xcassets */,
 				378AABF81ECEF83200DE4637 /* LaunchScreen.storyboard */,
 				378AABFB1ECEF83200DE4637 /* Info.plist */,
+				370187DA1ECF4CC70005462F /* ReactiveForms-Bridging-Header.h */,
 			);
 			path = ReactiveForms;
 			sourceTree = "<group>";
@@ -152,6 +216,8 @@
 			files = (
 				378AABFA1ECEF83200DE4637 /* LaunchScreen.storyboard in Resources */,
 				378AABF71ECEF83200DE4637 /* Assets.xcassets in Resources */,
+				370187DE1ECF4E100005462F /* TextFieldCell.xib in Resources */,
+				370187D91ECF4B220005462F /* MenuCell.xib in Resources */,
 				378AABF51ECEF83200DE4637 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,8 +277,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370187CB1ECF4AEA0005462F /* DCCellDescription.swift in Sources */,
+				370187D11ECF4AEA0005462F /* DCTableViewController.swift in Sources */,
+				370187CD1ECF4AEA0005462F /* DCHelper.swift in Sources */,
+				370187D41ECF4AEA0005462F /* ReusableView.swift in Sources */,
 				378AABF21ECEF83200DE4637 /* ViewController.swift in Sources */,
+				370187DD1ECF4E100005462F /* TextFieldCell.swift in Sources */,
 				378AABF01ECEF83200DE4637 /* AppDelegate.swift in Sources */,
+				370187D21ECF4AEA0005462F /* DCTableViewHandling.swift in Sources */,
+				370187D31ECF4AEA0005462F /* DCTableViewStructure.swift in Sources */,
+				370187D01ECF4AEA0005462F /* DCTableViewCellProtocol.swift in Sources */,
+				370187CC1ECF4AEA0005462F /* DCExceptionHandler.m in Sources */,
+				370187CE1ECF4AEA0005462F /* DCSectionDescription.swift in Sources */,
+				370187D81ECF4B220005462F /* MenuCell.swift in Sources */,
+				370187CF1ECF4AEA0005462F /* DCTableSupportedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +418,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.strv.ReactiveForms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveForms-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -353,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.strv.ReactiveForms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveForms-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -376,6 +456,7 @@
 				378AAC001ECEF83200DE4637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
